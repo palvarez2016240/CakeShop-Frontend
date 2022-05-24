@@ -1,0 +1,63 @@
+html,body{
+  width: 100%;
+  height: 100%;
+}
+
+.container{
+  margin-top: 200px;
+  width: 1140px;
+}
+
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+
+  &:hover{
+    flex: 7;
+  }
+}
+
+.item-1 {
+  background-image: url('https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2020/12/recetas-pasteles-vender-nortonrsx.jpg');
+}
+
+.item-2 {
+  background-image: url('https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2021/07/decorar-un-pastel-y-hacerlo-ligero-y-saludable.jpg');
+}
+
+.item-3 {
+  background-image: url('https://cdn.aarp.net/content/dam/aarp/home-and-family/your-home/2022/03/1140-bundt-cake.jpg');
+}
+
+.item-4 {
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuLj9Ti4MSXD387k_XPYT2KSWnC7qjsJ8rAQ&usqp=CAU');
+}
+
+.item-5 {
+  background-image: url('https://www.comedera.com/wp-content/uploads/2020/12/mike-meeks-zk-fclJdGas-unsplash-scaled.jpg');
+}
+
+.social{
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+
+  img{
+    display: block;
+    width: 32px;
+  }
+}
+
+

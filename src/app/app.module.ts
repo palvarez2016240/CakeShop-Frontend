@@ -11,6 +11,7 @@ import { InicioComponent } from './Components/inicio/inicio.component';
 import { CatalogoComponent } from './Components/catalogo/catalogo.component';
 import { OfertasComponent } from './Components/ofertas/ofertas.component';
 import { AboutComponent } from './Components/about/about.component';
+import { NavbarComponent } from './Components/navbar/navbar.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { AboutComponent } from './Components/about/about.component';
     InicioComponent,
     CatalogoComponent,
     OfertasComponent,
-    AboutComponent
+    AboutComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,

@@ -8,7 +8,7 @@ import { OfertasComponent } from './Components/ofertas/ofertas.component';
 
 const routes: Routes = [
   {path: 'Inicio', component: InicioComponent},
-  {path: 'Oferas', component: OfertasComponent},
+  {path: 'Ofertas', component: OfertasComponent},
   {path: 'Catalogo', component: CatalogoComponent},
   {path: 'SobreNosotros', component: AboutComponent},
   {path: '**', component: InicioComponent}
