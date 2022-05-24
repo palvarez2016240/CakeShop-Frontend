@@ -22,6 +22,7 @@ body {
 }
 
 .main{
+  margin-top: 200px !important;
   max-width: 1200px;
   margin: 0 auto;
 }
@@ -82,7 +83,6 @@ img {
 }
 
 .card {
-  margin-top: 200px;
   background-color: white;
   border-radius: 0.25rem;
   box-shadow: 0 20px 40px -14px rgba(0, 0, 0, 0.25);
@@ -118,3 +118,9 @@ img {
   margin-top: 35px;
   text-align: center;
 }
+
+img{
+  width: 350px;
+  height: 400px;
+}
+

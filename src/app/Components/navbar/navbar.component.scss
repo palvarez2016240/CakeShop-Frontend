@@ -5,12 +5,7 @@
 $Lato:	'Lato', sans-serif;
 $Open-sans:	'Open Sans', sans-serif;
 $dark-gray: #3c3c3c;
-$light-gray: #a6a6a6;
-$UIblue: #3CBBF7;
-$UIred: #E74C3C;
-$UIyellow: #F8E71C;
-$UIgreen: #13bf11;
-$dark-brown: #542900;
+
 
 /* --------------------------------
 Small Window Size and Mobile Style
@@ -41,7 +36,6 @@ Small Window Size and Mobile Style
 
 	.navbar-container {
 		height: 120px !important;
-
 	}
 	.nav, .navbar {
 		flex-wrap: wrap !important;
@@ -71,14 +65,14 @@ html, body {
 	transform: translateX(-50%);
 	z-index: 10;
 	width: 100%;
-	height: 70px;
-	background: linear-gradient(to bottom, rgba(255,255,255,1) 50%,rgba(255, 255, 255, 0) 100%);
+	height: 140px;
+  background: wheat;
 }
+
 
 .nav, .navbar {
 	width: 500px;
 	margin: auto;
-	margin-top: 20px;
 	font-family: $Lato;
 	font-size: 13px;
 	font-weight: 400;
@@ -96,7 +90,7 @@ html, body {
 	}
 
 	.nav-item {
-		padding: 5px 0;
+      padding: 5px 0;
 
 		&:after {
 			content: '\00a0';
@@ -127,4 +121,12 @@ html, body {
 .tit{
   margin-top: 20px;
   font-family: $Lato;
+}
+
+.bann{
+  background-color: wheat !important;
+}
+
+h1{
+  color: white;
 }
