@@ -136,3 +136,18 @@ h1{
 .card_btn:hover{
   background-color: rgba(245, 222, 179, 0.676);
 }
+
+.btn{
+  background-color: wheat;
+  max-width: 150px;
+  border-radius: 15px;
+}
+
+.btn:hover{
+  background-color: rgba(245, 222, 179, 0.676);
+}
+
+a{
+  color: black;
+  text-decoration: none;
+}
